@@ -16,6 +16,8 @@ group :production do
   gem 'pg'
   gem 'rails_12factor'
 end
+#stripe for online payments
+gem 'stripe', :git=>'https://github.com/stripe/stripe-ruby'
 #add bootstrap
 gem 'bootstrap-sass'
 # Use Puma as the app server
